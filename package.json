@@ -1,6 +1,6 @@
 {
   "name": "js-easter-egg-pack",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "A easter-egg pack with funny stuff.",
   "main": "index.js",
   "type": "module",
@@ -22,5 +22,5 @@
   "bugs": {
     "url": "https://github.com/MandipKumarKanu/js-easter-egg-pack/issues"
   },
-  "homepage": "https://github.com/MandipKumarKanu/js-easter-egg-pack/#readme"
+  "homepage": "https://easter-eggs-2029.web.app/"
 }

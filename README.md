@@ -1,14 +1,12 @@
-# 🐰 easter-egg-collection
+# 🐰 Easter-Egg-Pack
 
 <p align="center">
   <a target="_blank" href="https://github.com/MandipKumarKanu/js-easter-egg-pack">
-    <img width="160" alt="js-easter-egg-pack" src="https://i.ibb.co/pjx39z9P/pnVXOKz.png">
+    <img width="200" alt="js-easter-egg-pack" src="https://i.ibb.co/FqDzF3L1/easter-egg.png">
   </a>
 </p>
 
-<p align="center">
-  A javascript library which includes easter eggs.
-</p>
+  <p align="center">Now just start typing and discover the magic! ✨🐣</p>
 
 <p align="center">
   <a target="_blank" href="https://nodei.co/npm/js-easter-egg-pack" title="NPM"><img src="https://nodei.co/npm/js-easter-egg-pack.png?downloads=true&downloadRank=true&stars=true"></a>
@@ -47,9 +45,27 @@ Everything all done now!
 
 <p align="center">
   <a target="_blank" href="https://github.com/MandipKumarKanu/js-easter-egg-pack">
-    <img alt="easter-egg-collection" src="https://i.ibb.co/1f5McyH7/Untitled.png">
+    <img alt="easter-egg-pack" src="https://i.ibb.co/1f5McyH7/Untitled.png">
   </a>
 </p>
+
+### Features:
+
+✔️ Automatically detects inputs and textareas with `data-easter`  
+✔️ Easy to use—just add `data-easter` to any input field!
+
+---
+
+### Trigger Easter Eggs with `data-easter`
+
+You can now trigger hidden easter eggs simply by adding the `data-easter` attribute to any text input or textarea.
+
+```html
+<input type="text" placeholder="Type here..." data-easter />
+<textarea placeholder="Type something..." data-easter></textarea>
+```
+
+---
 
 ## ⚡️ Quick Start
 
@@ -1063,25 +1079,4 @@ dance
  <img alt="dance" style="display: none; margin: 0 auto;" src="https://i.ibb.co/h1dMwc3y/e884990a7863c90811e37b275cae3f0c.gif">
 </p>
 
-## ©️ License
-
-(The MIT License)
-Permission is hereby granted, free of charge, to any person
-obtaining a copy of this software and associated documentation
-files (the "Software"), to deal in the Software without restriction,
-including without limitation the rights to use, copy, modify,
-merge, publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall
-be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
-OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
-HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-DEALINGS IN THE SOFTWARE.
+> Set your goals high, and don't stop till you get there! 👋

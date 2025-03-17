@@ -1,3 +1,5 @@
+import { init } from "./init";
+
 const collection = {
   pikachu: pikachu(),
   bravo: bravo(),
@@ -1494,14 +1496,10 @@ function pikachu() {
       ck = 0;
     }
   };
-
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
-
   var data = "https://i.imgur.com/hALdLiE.gif";
 
-  init(data);
+  init(record);
+  return { init };
 }
 
 function bravo() {
@@ -1555,13 +1553,10 @@ function bravo() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
-
   let data = "https://i.imgur.com/lbZ5rGI.gif";
 
-  init(data);
+  init(record);
+  return { init };
 }
 
 function ghost() {
@@ -1611,13 +1606,11 @@ function ghost() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/PTcNLrx.gif";
 
-  init(data);
+  return { init };
 }
 
 function britney() {
@@ -1667,14 +1660,10 @@ function britney() {
       ck = 0;
     }
   };
-
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
-
   var data = "https://i.imgur.com/EuhEYw8.gif";
 
-  init(data);
+  init(record);
+  return { init };
 }
 
 function pikarun() {
@@ -1725,27 +1714,22 @@ function pikarun() {
       ck = 0;
     }
   };
-
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
-
   let data = "https://i.imgur.com/g99m5gz.gif";
 
-  init(data);
+  init(record);
+  return { init };
 }
 
 function catrun() {
   "use strict";
 
   // type 'catrun' on your keyboard
-  let key = [67, 65, 84, 82, 85, 78];
-  // let key = [67]
+  let key = [67, 65, 84, 82, 85, 78]; // c,a,t,r,u,n
   let ck = 0;
   let max = key.length;
+  let data = "https://i.imgur.com/QfJZlrI.gif";
 
   let catRun = function () {
-    var shock = document.createElement("div");
     var img = new Image();
     img.src = data;
     img.style.width = "450px";
@@ -1757,10 +1741,6 @@ function catrun() {
     img.style.zIndex = 999999;
 
     document.body.appendChild(img);
-
-    // window.setTimeout(function(){
-    //   img.style.left = 'calc(50% - 200px)'
-    // },50)
 
     window.setTimeout(function () {
       img.style.left = "calc(100% + 500px)";
@@ -1784,13 +1764,8 @@ function catrun() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
-
-  let data = "https://i.imgur.com/QfJZlrI.gif";
-
-  init(data);
+  init(record);
+  return { init };
 }
 
 function koggy() {
@@ -1819,32 +1794,6 @@ function koggy() {
       img.style.bottom = "0px";
     }, 50);
 
-    // window.setTimeout(function(){
-    //   shock.style.width="100%";
-    //   shock.style.height="100%";
-    //   shock.style.left = 0;
-    //   shock.style.top = 0;
-    //   shock.style.position="fixed";
-    //   shock.style.zIndex=9999999;
-    //   shock.style.background = '#fffb95';
-    //   shock.style.opacity = 0;
-    //
-    //   document.body.appendChild(shock);
-    //
-    //   for ( var x = 0; x<81; x++ ) {
-    //     (function(x){
-    //       window.setTimeout(function(){
-    //         if ( x % 2 === 0 ) {
-    //           shock.style.opacity = 0;
-    //         } else {
-    //           shock.style.opacity = 0.3;
-    //         }
-    //       },x * 25);
-    //     })(x)
-    //   }
-    //
-    // },2500);
-
     window.setTimeout(function () {
       img.style.bottom = "-149px";
     }, 4300);
@@ -1866,14 +1815,10 @@ function koggy() {
       ck = 0;
     }
   };
-
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
-
   var data = "https://i.imgur.com/oWCAG1f.gif";
 
-  init(data);
+  init(record);
+  return { init };
 }
 
 function sonic() {
@@ -1924,14 +1869,10 @@ function sonic() {
       ck = 0;
     }
   };
-
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
-
   let data = "https://i.imgur.com/qgTCkPU.gif";
 
-  init(data);
+  init(record);
+  return { init };
 }
 
 function doggy() {
@@ -1982,13 +1923,10 @@ function doggy() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
-
   let data = "https://i.imgur.com/PwxV3zM.gif";
 
-  init(data);
+  init(record);
+  return { init };
 }
 
 function spongebob() {
@@ -2039,13 +1977,10 @@ function spongebob() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
-
   var data = "https://i.imgur.com/zQkEpJO.gif";
 
-  init(data);
+  init(record);
+  return { init };
 }
 
 function gun() {
@@ -2099,13 +2034,10 @@ function gun() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
-
   let data = "https://i.imgur.com/jTSb37n.gif";
 
-  init(data);
+  init(record);
+  return { init };
 }
 
 function money() {
@@ -2156,13 +2088,10 @@ function money() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
-
   var data = "https://i.imgur.com/X8hSR2Z.gif";
 
-  init(data);
+  init(record);
+  return { init };
 }
 
 function homer() {
@@ -2212,14 +2141,10 @@ function homer() {
       ck = 0;
     }
   };
-
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
-
   let data = "https://i.imgur.com/7EXwuS0.gif";
 
-  init(data);
+  init(record);
+  return { init };
 }
 
 function dog() {
@@ -2270,13 +2195,10 @@ function dog() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
-
   let data = "https://i.imgur.com/rJRRZw7.gif";
 
-  init(data);
+  init(record);
+  return { init };
 }
 
 function bird() {
@@ -2327,13 +2249,10 @@ function bird() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
-
   let data = "https://i.imgur.com/kNJKFTK.gif";
 
-  init(data);
+  init(record);
+  return { init };
 }
 
 function piqiu() {
@@ -2384,13 +2303,10 @@ function piqiu() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
-
   var data = "https://i.imgur.com/KahfM71.gif";
 
-  init(data);
+  init(record);
+  return { init };
 }
 
 function lol() {
@@ -2442,13 +2358,10 @@ function lol() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
-
   var data = "https://i.imgur.com/pAuDT3R.gif";
 
-  init(data);
+  init(record);
+  return { init };
 }
 
 function ohhh() {
@@ -2503,12 +2416,10 @@ function ohhh() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/GWAyANH.png";
-  init(data);
+  return { init };
 }
 
 function nyancat() {
@@ -2560,13 +2471,11 @@ function nyancat() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   let data = "https://i.imgur.com/3kI22fU.gif";
 
-  init(data);
+  return { init };
 }
 
 function salamander() {
@@ -2617,13 +2526,11 @@ function salamander() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/PS3wXyB.gif";
 
-  init(data);
+  return { init };
 }
 
 function airguitar() {
@@ -2673,13 +2580,11 @@ function airguitar() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/VZoOYz4.gif";
 
-  init(data);
+  return { init };
 }
 
 function dragon() {
@@ -2730,13 +2635,11 @@ function dragon() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   let data = "https://i.imgur.com/rTwSMR4.gif";
 
-  init(data);
+  return { init };
 }
 
 function psyduck() {
@@ -2787,13 +2690,11 @@ function psyduck() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/9vCNtPT.gif";
 
-  init(data);
+  return { init };
 }
 
 function piggy() {
@@ -2845,13 +2746,11 @@ function piggy() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   let data = "https://i.imgur.com/QLA2RH0.gif";
 
-  init(data);
+  return { init };
 }
 
 function sensei() {
@@ -2902,13 +2801,11 @@ function sensei() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/oUfSLm0.gif";
 
-  init(data);
+  return { init };
 }
 
 function rabbit() {
@@ -2958,13 +2855,11 @@ function rabbit() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/rXh1XTM.gif";
 
-  init(data);
+  return { init };
 }
 
 function joker() {
@@ -3015,13 +2910,11 @@ function joker() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/vQv7oBY.gif";
 
-  init(data);
+  return { init };
 }
 
 function mario() {
@@ -3072,13 +2965,11 @@ function mario() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   let data = "https://i.imgur.com/QbN03gd.gif";
 
-  init(data);
+  return { init };
 }
 
 function fox() {
@@ -3129,13 +3020,11 @@ function fox() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/9OtfVY4.gif";
 
-  init(data);
+  return { init };
 }
 
 function jump() {
@@ -3186,13 +3075,11 @@ function jump() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.ibb.co/jPg5XrDY/4e3fd47366a1a78101b4e161bbd12f25.gif";
 
-  init(data);
+  return { init };
 }
 
 function tank() {
@@ -3243,13 +3130,11 @@ function tank() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/wV8dG4Q.gif";
 
-  init(data);
+  return { init };
 }
 
 function winner() {
@@ -3300,13 +3185,11 @@ function winner() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/5JNiPcT.gif";
 
-  init(data);
+  return { init };
 }
 
 function handsome() {
@@ -3357,13 +3240,11 @@ function handsome() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   let data = "https://i.imgur.com/rHFG4oe.gif";
 
-  init(data);
+  return { init };
 }
 
 function penguin() {
@@ -3415,13 +3296,11 @@ function penguin() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/lkcElNE.gif";
 
-  init(data);
+  return { init };
 }
 
 function swim() {
@@ -3473,13 +3352,11 @@ function swim() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   let data = "https://i.imgur.com/D78gMhP.gif";
 
-  init(data);
+  return { init };
 }
 
 function thankyou() {
@@ -3529,13 +3406,11 @@ function thankyou() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/AROO6Pl.gif";
 
-  init(data);
+  return { init };
 }
 
 function earth() {
@@ -3586,13 +3461,11 @@ function earth() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   let data = "https://i.imgur.com/B3zjsAs.gif";
 
-  init(data);
+  return { init };
 }
 
 function fly() {
@@ -3642,13 +3515,11 @@ function fly() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/0bXIouV.gif";
 
-  init(data);
+  return { init };
 }
 
 function snorlax() {
@@ -3699,13 +3570,11 @@ function snorlax() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/3T3Lico.gif";
 
-  init(data);
+  return { init };
 }
 
 function board() {
@@ -3756,13 +3625,11 @@ function board() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   let data = "https://i.imgur.com/QuNJknZ.gif";
 
-  init(data);
+  return { init };
 }
 
 function haters() {
@@ -3814,13 +3681,11 @@ function haters() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   let data = "https://i.imgur.com/rDAoT6H.gif";
 
-  init(data);
+  return { init };
 }
 
 function onmyway() {
@@ -3872,13 +3737,11 @@ function onmyway() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   let data = "https://i.imgur.com/f3TcTU6.gif";
 
-  init(data);
+  return { init };
 }
 
 function no() {
@@ -3929,13 +3792,11 @@ function no() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/9985gzf.gif";
 
-  init(data);
+  return { init };
 }
 
 function kirby() {
@@ -3986,13 +3847,11 @@ function kirby() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   let data = "https://i.imgur.com/Ydfn7Bu.gif";
 
-  init(data);
+  return { init };
 }
 
 function hangover() {
@@ -4044,13 +3903,11 @@ function hangover() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   let data = "https://i.imgur.com/Np8rIoY.gif";
 
-  init(data);
+  return { init };
 }
 
 function balloon() {
@@ -4101,13 +3958,11 @@ function balloon() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/RUo4HfH.gif";
 
-  init(data);
+  return { init };
 }
 
 function cool() {
@@ -4158,13 +4013,11 @@ function cool() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/9ILLXpb.gif";
 
-  init(data);
+  return { init };
 }
 
 function walk() {
@@ -4216,13 +4069,11 @@ function walk() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   let data = "https://i.imgur.com/R7oSZnR.gif";
 
-  init(data);
+  return { init };
 }
 
 function ufo() {
@@ -4274,13 +4125,11 @@ function ufo() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/e4QEwuV.gif";
 
-  init(data);
+  return { init };
 }
 
 function pie() {
@@ -4332,13 +4181,11 @@ function pie() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/lKKwLDj.gif";
 
-  init(data);
+  return { init };
 }
 
 function pokeball() {
@@ -4390,13 +4237,11 @@ function pokeball() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   let data = "https://i.imgur.com/bcM1F8u.gif";
 
-  init(data);
+  return { init };
 }
 
 function hippo() {
@@ -4448,13 +4293,11 @@ function hippo() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   let data = "https://i.imgur.com/CLcdyJX.gif";
 
-  init(data);
+  return { init };
 }
 
 function hiphop() {
@@ -4505,13 +4348,11 @@ function hiphop() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://i.imgur.com/y2NF3eH.gif";
 
-  init(data);
+  return { init };
 }
 
 function robot() {
@@ -4563,13 +4404,11 @@ function robot() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   let data = "https://i.imgur.com/bVlyMT8.gif";
 
-  init(data);
+  return { init };
 }
 
 function bat() {
@@ -4621,13 +4460,11 @@ function bat() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   let data = "https://i.imgur.com/1REy1pJ.gif";
 
-  init(data);
+  return { init };
 }
 
 function travel() {
@@ -4679,13 +4516,11 @@ function travel() {
     }
   };
 
-  let init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   let data = "https://i.imgur.com/7CjK3g7.gif";
 
-  init(data);
+  return { init };
 }
 
 function haha() {
@@ -4737,14 +4572,12 @@ function haha() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data =
     "https://weichiachang.github.io/easter-eggs-mobile/images/haha.gif";
 
-  init(data);
+  return { init };
 }
 
 function kumamon() {
@@ -4794,14 +4627,12 @@ function kumamon() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data =
     "https://weichiachang.github.io/easter-eggs-mobile/images/kumamon.gif";
 
-  init(data);
+  return { init };
 }
 
 function unicorn() {
@@ -4853,14 +4684,12 @@ function unicorn() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data =
     "https://weichiachang.github.io/easter-eggs-mobile/images/unicorn.gif";
 
-  init(data);
+  return { init };
 }
 
 function wink() {
@@ -4911,14 +4740,12 @@ function wink() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data =
     "https://weichiachang.github.io/easter-eggs-mobile/images/wink.gif";
 
-  init(data);
+  return { init };
 }
 
 function hi() {
@@ -4968,13 +4795,11 @@ function hi() {
     }
   };
 
-  var init = function (data) {
-    document.addEventListener("keyup", record);
-  };
+  init(record);
 
   var data = "https://weichiachang.github.io/easter-eggs-mobile/images/hi.gif";
 
-  init(data);
+  return { init };
 }
 
 function naruto() {
@@ -5020,7 +4845,8 @@ function naruto() {
     }
   };
 
-  document.addEventListener("keyup", record);
+  init(record);
+  return { init };
 }
 
 function itachi() {
@@ -5065,7 +4891,8 @@ function itachi() {
     }
   };
 
-  document.addEventListener("keyup", record);
+  init(record);
+  return { init };
 }
 
 function narutoDance() {
@@ -5112,7 +4939,8 @@ function narutoDance() {
     }
   };
 
-  document.addEventListener("keyup", record);
+  init(record);
+  return { init };
 }
 
 export default collection;
