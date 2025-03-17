@@ -1,8 +1,8 @@
 # 🐰 easter-egg-collection
 
 <p align="center">
-  <a target="_blank" href="https://github.com/WeiChiaChang/easter-egg-collection">
-    <img width="160" alt="easter-egg-collection" src="http://i.imgur.com/pnVXOKz.png">
+  <a target="_blank" href="https://github.com/MandipKumarKanu/js-easter-egg-pack">
+    <img width="160" alt="js-easter-egg-pack" src="https://i.ibb.co/pjx39z9P/pnVXOKz.png">
   </a>
 </p>
 
@@ -10,38 +10,8 @@
   A javascript library which includes easter eggs.
 </p>
 
-<!-- <p align="center">
-  <a target="_blank" href="http://npm.packagequality.com/badge/easter-egg-collection.png" title="package quailty"><img src="http://npm.packagequality.com/badge/easter-egg-collection.png"/></a>
-</p> -->
-
-<!-- <p align="center">
-  <a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
-  <a target="_blank" href="http://makeapullrequest.com" title="PRs Welcome"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"></a>
-  <a target="_blank" href="https://david-dm.org/weichiachang/easter-egg-collection" title="dependencies status"><img src="https://david-dm.org/weichiachang/easter-egg-collection/status.svg"/></a>
-  <a target="_blank" href="https://david-dm.org/weichiachang/easter-egg-collection?type=dev" title="devDependencies status"><img src="https://david-dm.org/weichiachang/easter-egg-collection/dev-status.svg"/></a>
-  <a target="_blank" href="#-documentation" title="live example"><img src="https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat"/></a>
-  <a target="_blank" href="https://readme-score-api.herokuapp.com/score.svg?url=WeiChiaChang/easter-egg-collection" title="score me"><img src="https://readme-score-api.herokuapp.com/score.svg?url=WeiChiaChang/easter-egg-collection"/></a>
-</p> -->
-
-<!-- <p align="center">
-  <a target="_blank" href="https://badge.fury.io/js/easter-egg-collection" title="npm version"><img src="https://badge.fury.io/js/easter-egg-collection.svg"></a>
-  <a target="_blank" href="https://www.npmjs.com/package/easter-egg-collection" title="npm"><img src="https://img.shields.io/npm/dt/easter-egg-collection.svg"></a>
-  <a target="_blank" href="https://www.npmjs.com/package/easter-egg-collection" title="npm"><img src="https://img.shields.io/npm/dm/easter-egg-collection.svg"></a>
-  <a target="_blank" href="https://github.com/WeiChiaChang/easter-egg-collection" title="contributions welcome"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
-  <a target="_blank" href="https://snyk.io/test/npm/easter-egg-collection"><img src="https://snyk.io/test/npm/easter-egg-collection/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/npm/easter-egg-collection" style="max-width:100%;"></a>
-</p> -->
-
-<!-- <p align="center">
-  <a target="_blank" href="https://github.com/WeiChiaChang/easter-egg-collection"><img src="https://img.shields.io/github/watchers/WeiChiaChang/easter-egg-collection.svg?style=social&label=Watch" alt="github watchers">   </a>
-  <a target="_blank" href="https://github.com/WeiChiaChang/easter-egg-collection"><img src="https://img.shields.io/github/stars/WeiChiaChang/easter-egg-collection.svg?style=social&label=Star" alt="github stars">   </a>
-  <a target="_blank" href="https://github.com/WeiChiaChang/easter-egg-collection" title="Follow @WeiChiaChang on GitHub"><img src="https://img.shields.io/github/followers/WeiChiaChang.svg?style=social&label=Follow" alt="GitHub followers">
-  </a>
-  <a target="_blank" href="https://github.com/WeiChiaChang/easter-egg-collection"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=102" alt="Open Source Love">
-  </a>
-</p> -->
-
 <p align="center">
-  <a target="_blank" href="https://nodei.co/npm/easter-egg-collection" title="NPM"><img src="https://nodei.co/npm/easter-egg-collection.png?downloads=true&downloadRank=true&stars=true"></a>
+  <a target="_blank" href="https://nodei.co/npm/js-easter-egg-pack" title="NPM"><img src="https://nodei.co/npm/js-easter-egg-pack.png?downloads=true&downloadRank=true&stars=true"></a>
 </p>
 
 ## 💡 Inspiration
@@ -56,16 +26,11 @@ All of the images were derived from [GIPHY](https://giphy.com/).
 
 <img src="https://i.imgur.com/zovrBw2.png">
 
-## 💉 Donate
-
-<a href="https://www.buymeacoffee.com/dKPhu3g" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
-<img src="https://i.imgur.com/zovrBw2.png">
-
 ## 📖 Documentation with Live Demo 🤘
+
 [Just have fun](https://goo.gl/Fi2cSL) ( <b>Easter eggs can be triggered in this documentation</b> ) !
 
-Or... [Codepen](https://codepen.io/WeiChiaChang/full/xLQVXm?editors=1100) for live example !
+Or... [website](https://easter-eggs-2029.web.app/) for live example !
 
 ## 😋 Another Special Edition for Mobile Device
 
@@ -74,44 +39,25 @@ Or... [Codepen](https://codepen.io/WeiChiaChang/full/xLQVXm?editors=1100) for li
 ## 🎉 Installation
 
 In a browser (CDN):
-```html
-<script src="https://rawgit.com/WeiChiaChang/Easter-egg/master/easter-eggs-collection.js"></script>
-```
 
-Or using npm:
+using npm:
 
 ```shell
-npm i easter-egg-collection -D
+npm i js-easter-egg-pack --save-dev
 ```
 
 Then in your JavaScript file:
 
 ```javascript
-import collection from 'easter-egg-collection'
+import collection from "js-easter-egg-pack";
 ```
 
-Everything all done now! ![turtle](http://i.imgur.com/879dfXS.gif)
+Everything all done now!
+<img src="https://i.ibb.co/7mqMhYW/3e2cfee2eb4ed31f4325598ee53ece71.gif" width="50" height="auto">
 
 <p align="center">
-  <a target="_blank" href="https://github.com/WeiChiaChang/easter-egg-collection">
-    <img alt="easter-egg-collection" src="https://i.imgur.com/AzRZ3rB.png">
-  </a>
-</p>
-
-> Image Original Source From [Awesome Egoist](https://github.com/egoist/evangelion-card)! Thank you!
-
-## 📰 Press Highlights
-
-- [Дайджест свежих материалов из мира фронтенда за последнюю неделю №278](https://habrahabr.ru/company/zfort/blog/337068/)
-- [35 выпуск 05 сезона.](http://www.rwpod.com/posts/2017/09/04/podcast-05-35.html#.Wa-PipMjFE4)
-- [Frontend Weekly Digest #22 (28 August — 4 September 2017)](https://medium.com/@frontender_ua/frontend-weekly-digest-22-28-august-4-september-2017-be17af7850a0)
-- [干货集中营 09月14日:今日力推](https://gank.io/2017/09/14)
-- [BetaPage](https://betapage.co/product/easter-egg-collection)
-- [Trending Page on BetaPage](https://twitter.com/beta_page/status/908938887921201152)
-
-<p align="center">
-  <a target="_blank" href="https://codepen.io/WeiChiaChang/pen/xLQVXm">
-    <img alt="easter-egg-collection" src="https://i.imgur.com/jU6Vc91.png">
+  <a target="_blank" href="https://github.com/MandipKumarKanu/js-easter-egg-pack">
+    <img alt="easter-egg-collection" src="https://i.ibb.co/1f5McyH7/Untitled.png">
   </a>
 </p>
 
@@ -128,7 +74,7 @@ hi
 ```
 
 <p align="center">
- <img alt="Hi" style="display: none; margin: 0 auto;" src="https://i.imgur.com/gOuUuKp.gif">
+ <img alt="Hi" style="display: none; margin: 0 auto;" src="https://i.ibb.co/KxC5LzSB/gOuUuKp.gif">
 </p>
 
 ---
@@ -144,7 +90,7 @@ wink
 ```
 
 <p align="center">
- <img alt="Wink" style="display: none; margin: 0 auto;" src="https://i.imgur.com/N4mPiWW.gif">
+ <img alt="Wink" style="display: none; margin: 0 auto;" src="https://i.ibb.co/y9vRhT3/N4mPiWW.gif">
 </p>
 
 ---
@@ -160,7 +106,7 @@ unicorn
 ```
 
 <p align="center">
- <img alt="Unicorn" style="display: none; margin: 0 auto;" src="https://i.imgur.com/ZEVcTFq.gif">
+ <img alt="Unicorn" style="display: none; margin: 0 auto;" src="https://i.ibb.co/3mqZ2C2N/ZEVcTFq.gif">
 </p>
 
 ---
@@ -354,7 +300,6 @@ cool
 <p align="center">
  <img alt="Cool" style="display: none; margin: 0 auto;" src="https://i.imgur.com/g0QSLmj.gif">
 </p>
-
 
 ---
 
@@ -625,7 +570,7 @@ jump
 ```
 
 <p align="center">
- <img alt="Jump" style="display: none; margin: 0 auto;" src="https://i.imgur.com/zSTGofL.gif">
+ <img alt="Jump" style="display: none; margin: 0 auto;" src="https://i.ibb.co/jPg5XrDY/4e3fd47366a1a78101b4e161bbd12f25.gif">
 </p>
 
 ---
@@ -1086,16 +1031,55 @@ nyancat
  <img alt="Nyancat" style="display: none; margin: 0 auto;" src="https://i.imgur.com/WcTBXUW.gif">
 </p>
 
+#### naruto
+
+> Summon Naruto
+
+```html
+<!-- There's no need to open console -->
+<!-- Just type 'naruto' in your browser -->
+naruto
+```
+
+<p align="center">
+ <img alt="naruto" style="display: none; margin: 0 auto;" src="https://i.ibb.co/ksS692xv/96bd57dfd46d27a32d435ad8eb82a997.gif">
+</p>
+
+#### itachi
+
+> Summon Itachi
+
+```html
+<!-- There's no need to open console -->
+<!-- Just type 'itachi' in your browser -->
+itachi
+```
+
+<p align="center">
+ <img alt="itachi" style="display: none; margin: 0 auto;" src="https://i.ibb.co/qM1dnQG2/2f006a4527ed1dfd886558bf8a7123f0.gif">
+</p>
+
+#### dance
+
+> Summon Naruto dancing
+
+```html
+<!-- There's no need to open console -->
+<!-- Just type 'dance' in your browser -->
+dance
+```
+
+<p align="center">
+ <img alt="dance" style="display: none; margin: 0 auto;" src="https://i.ibb.co/h1dMwc3y/e884990a7863c90811e37b275cae3f0c.gif">
+</p>
+
 ## ©️ License
 
 (The MIT License)
-
-Copyright (c) 2017 - WeiChiaChang - https://codepen.io/isdampe/pen/OXYZZO (Original source from Richard Denton)
-
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
 files (the "Software"), to deal in the Software without restriction,
- including without limitation the rights to use, copy, modify,
+including without limitation the rights to use, copy, modify,
 merge, publish, distribute, sublicense, and/or sell copies of
 the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
