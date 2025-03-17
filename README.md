@@ -20,21 +20,11 @@ Original Source: Thanks to [Richard Denton](https://codepen.io/isdampe/pen/OXYZZ
 
 All of the images were derived from [GIPHY](https://giphy.com/).
 
-## ✍️ Feedback
-
-[The reason why I want to do this side project](https://github.com/WeiChiaChang/Daily-Digest-Collection/issues/6).
-
-<img src="https://i.imgur.com/zovrBw2.png">
-
 ## 📖 Documentation with Live Demo 🤘
 
-[Just have fun](https://goo.gl/Fi2cSL) ( <b>Easter eggs can be triggered in this documentation</b> ) !
+[Just have fun](https://easter-eggs-2029.web.app/) ( <b>Easter eggs can be triggered in this documentation</b> ) !
 
 Or... [website](https://easter-eggs-2029.web.app/) for live example !
-
-## 😋 Another Special Edition for Mobile Device
-
-[easter-eggs-mobile](https://github.com/WeiChiaChang/easter-eggs-mobile) help you trigger easter eggs on 📱 !
 
 ## 🎉 Installation
 
