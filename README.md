@@ -10,35 +10,35 @@
   A javascript library which includes easter eggs.
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <a target="_blank" href="http://npm.packagequality.com/badge/easter-egg-collection.png" title="package quailty"><img src="http://npm.packagequality.com/badge/easter-egg-collection.png"/></a>
-</p>
+</p> -->
 
-<p align="center">
+<!-- <p align="center">
   <a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
   <a target="_blank" href="http://makeapullrequest.com" title="PRs Welcome"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"></a>
   <a target="_blank" href="https://david-dm.org/weichiachang/easter-egg-collection" title="dependencies status"><img src="https://david-dm.org/weichiachang/easter-egg-collection/status.svg"/></a>
   <a target="_blank" href="https://david-dm.org/weichiachang/easter-egg-collection?type=dev" title="devDependencies status"><img src="https://david-dm.org/weichiachang/easter-egg-collection/dev-status.svg"/></a>
   <a target="_blank" href="#-documentation" title="live example"><img src="https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat"/></a>
   <a target="_blank" href="https://readme-score-api.herokuapp.com/score.svg?url=WeiChiaChang/easter-egg-collection" title="score me"><img src="https://readme-score-api.herokuapp.com/score.svg?url=WeiChiaChang/easter-egg-collection"/></a>
-</p>
+</p> -->
 
-<p align="center">
+<!-- <p align="center">
   <a target="_blank" href="https://badge.fury.io/js/easter-egg-collection" title="npm version"><img src="https://badge.fury.io/js/easter-egg-collection.svg"></a>
   <a target="_blank" href="https://www.npmjs.com/package/easter-egg-collection" title="npm"><img src="https://img.shields.io/npm/dt/easter-egg-collection.svg"></a>
   <a target="_blank" href="https://www.npmjs.com/package/easter-egg-collection" title="npm"><img src="https://img.shields.io/npm/dm/easter-egg-collection.svg"></a>
   <a target="_blank" href="https://github.com/WeiChiaChang/easter-egg-collection" title="contributions welcome"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
   <a target="_blank" href="https://snyk.io/test/npm/easter-egg-collection"><img src="https://snyk.io/test/npm/easter-egg-collection/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/npm/easter-egg-collection" style="max-width:100%;"></a>
-</p>
+</p> -->
 
-<p align="center">
+<!-- <p align="center">
   <a target="_blank" href="https://github.com/WeiChiaChang/easter-egg-collection"><img src="https://img.shields.io/github/watchers/WeiChiaChang/easter-egg-collection.svg?style=social&label=Watch" alt="github watchers">   </a>
   <a target="_blank" href="https://github.com/WeiChiaChang/easter-egg-collection"><img src="https://img.shields.io/github/stars/WeiChiaChang/easter-egg-collection.svg?style=social&label=Star" alt="github stars">   </a>
   <a target="_blank" href="https://github.com/WeiChiaChang/easter-egg-collection" title="Follow @WeiChiaChang on GitHub"><img src="https://img.shields.io/github/followers/WeiChiaChang.svg?style=social&label=Follow" alt="GitHub followers">
   </a>
   <a target="_blank" href="https://github.com/WeiChiaChang/easter-egg-collection"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=102" alt="Open Source Love">
   </a>
-</p>
+</p> -->
 
 <p align="center">
   <a target="_blank" href="https://nodei.co/npm/easter-egg-collection" title="NPM"><img src="https://nodei.co/npm/easter-egg-collection.png?downloads=true&downloadRank=true&stars=true"></a>

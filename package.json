@@ -1,23 +1,26 @@
 {
-  "name": "easter-egg-collection",
-  "version": "1.4.56",
-  "description": "A easter-egg collection with funny stuff.",
+  "name": "js-easter-egg-pack",
+  "version": "1.0.0",
+  "description": "A easter-egg pack with funny stuff.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WeiChiaChang/easter-egg-collection.git"
+    "url": "git+https://github.com/MandipKumarKanu/js-easter-egg-pack.git"
   },
   "keywords": [
     "easter-egg",
-    "js-tricks"
+    "js-tricks",
+    "funny",
+    "js-easter-egg"
   ],
-  "author": "weichiachang",
+  "author": "mandipkumarkanu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WeiChiaChang/easter-egg-collection/issues"
+    "url": "https://github.com/MandipKumarKanu/js-easter-egg-pack/issues"
   },
-  "homepage": "https://github.com/WeiChiaChang/easter-egg-collection/#readme"
+  "homepage": "https://github.com/MandipKumarKanu/js-easter-egg-pack/#readme"
 }
